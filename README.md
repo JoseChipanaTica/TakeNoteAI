@@ -72,7 +72,8 @@ infraestructura necesaria para su operación.
 
 ## Demo Video
 
-Link del video en Youtube: https://youtu.be/Cd9koQjYV9c
+* Link del video en Youtube: https://youtu.be/Cd9koQjYV9c
+* Link de la demo: https://takenoteai-frontend.vercel.app/
 
 ## Team Members
 
