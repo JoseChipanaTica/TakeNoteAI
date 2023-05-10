@@ -7,6 +7,12 @@
 
 **Reto Seleccionado: Cruz Roja**
 
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://ww1.freelogovectors.net/wp-content/uploads/2017/05/cruz-roja-logo.png?lossy=1&w=2560&ssl=1">
+ <source media="(prefers-color-scheme: light)" srcset="https://ww1.freelogovectors.net/wp-content/uploads/2017/05/cruz-roja-logo.png?lossy=1&w=2560&ssl=1">
+ <img alt="YOUR-ALT-TEXT" src="https://ww1.freelogovectors.net/wp-content/uploads/2017/05/cruz-roja-logo.png?lossy=1&w=2560&ssl=1">
+</picture>
+
 TakeNoteAI ofrece una solución innovadora que permite a Cruz Roja recopilar información de los usuarios de manera
 automatizada, eliminando la necesidad de escribir datos manualmente. Esto permite que los usuarios de la organización se
 enfoquen en tener conversaciones significativas y establecer relaciones efectivas con las personas afectadas. Además,
