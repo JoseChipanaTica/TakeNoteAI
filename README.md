@@ -1,5 +1,8 @@
 # Hackathon For Good: La Región de AWS en España al Servicio de la Sociedad
 
+* Link Repositorio Frontend: https://github.com/JoseChipanaTica/takenoteai-frontend
+* Link Repositorio Backend: https://github.com/cinnamon17/takeNoteAI
+
 ## Descripción del Proyecto
 
 **Reto Seleccionado: Cruz Roja**
