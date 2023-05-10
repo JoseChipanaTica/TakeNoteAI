@@ -1,12 +1,5 @@
 # Hackathon For Good: La Región de AWS en España al Servicio de la Sociedad
 
-Los participantes del Hackathon tendrán que hacer un fork de este repositorio y crear un repositorio público en GitHub
-con su propio nombre de usuario (un repositorio único por cada equipo).
-
-A continuación, os mostraremos en este README.md las diferentes secciones que deberán completarse, resaltando los puntos
-indicados para la solución/implementación. Por favor, sentiros libres de crear más subsecciones si fuese necesario. La
-idea es comprender qué componentes habéis utilizado y cuál es la esencia de vuestra propuesta.
-
 ## Descripción del Proyecto
 
 **Reto Seleccionado: Cruz Roja**
@@ -24,12 +17,12 @@ los pros y contras de vuestra implementación, etc.
 TakeNoteAI se enfoca en mejorar la eficiencia de la toma de datos en organizaciones como Cruz Roja, permitiendo a los
 usuarios de la organización concentrarse en establecer relaciones efectivas con las personas afectadas.
 
-El caso de uso se basa en el escenario en el que los trabajadores de la Cruz Roja necesitan recopilar información
+El caso de uso se basa en el escenario en el que los colaboradores de la Cruz Roja necesitan recopilar información
 de las personas afectadas, pero no quieren desviarse de su objetivo principal: brindar apoyo a las personas.
 
 Para lograr este objetivo, utilizamos una variedad de tecnologías de AWS, incluyendo S3 para almacenar los archivos de
-audio, EC2 para el servidor y Transcribe para convertir el audio a texto, OpenAI - ChatGPT para comprender las acciones
-necesarias y obtener los datos requeridos, y MongoDB para almacenar los datos obtenidos.
+audio, EC2 para el servidor y OpenAi - Whisper para convertir el audio a texto, OpenAI - ChatGPT para comprender las
+acciones necesarias y obtener los datos requeridos, y MongoDB para almacenar los datos obtenidos.
 
 **Los pros de nuestra implementación son**: la automatización de la toma de datos permite que los trabajadores de Cruz
 Roja se concentren en lo que realmente importa y la adaptabilidad a las necesidades específicas de cada área de la
@@ -41,24 +34,36 @@ conectarse con los servicios por lo que puede ser un desventaja en lugares con p
 
 ## Diagrama de Arquitectura
 
-Adjuntar una imagen del diagrama de arquitectura de la solución.
-
 ![Screenshot](takenote-arch.png)
 
 ## Descripción Técnica
 
 Una visión general de:
 
-**¿Qué tipo de arquitectura habéis planteado?** Por lo general, las arquitecturas modernas de aplicaciones suelen
-utilizar microservicios y APIs para conectar los servicios, eso no quiere decir que nos podemos encontrar con
-arquitecturas de N-capas, arquitecturas monolíticas, de microservicios o basadas en eventos. Dependerá de vuestro caso
-de uso, pero nos gustaría conocer cuál ha sido vuestra elección.
+La solución propuesta utiliza una arquitectura monolítica.
+Nuestro servidor está alojado en AWS EC2 utilizando un ARM como procesador.
+
+**¿Qué tipo de arquitectura habéis planteado?**
+
+Hemos utilizado la arquitectura monolítica en nuestro proyecto. Esta elección se basó en la simplicidad y la facilidad
+de implementación de este tipo de arquitectura.Además de la simplicidad y facilidad de implementación, la arquitectura
+monolítica también ofrece otros beneficios en el contexto de nuestro proyecto. Al estar todos los componentes del
+sistema en un solo lugar, se reduce el tiempo y la complejidad de la configuración y el mantenimiento de la
+infraestructura necesaria para su operación.
 
 **¿Qué tecnologías AWS se han utilizado?**
+* AWS S3
+* AWS EC2
+* AWS IAM
+* AWS Certificate Manager
 
-## Demo Vídeo
+**Posibles tecnologías AWS a futuro**
+* AWS Transcribe
+* AWS Comprehend
 
-Link del video en Youtube:
+## Demo Video
+
+Link del video en Youtube: https://youtu.be/Cd9koQjYV9c
 
 ## Team Members
 
